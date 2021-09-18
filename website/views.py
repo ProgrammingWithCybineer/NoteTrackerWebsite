@@ -23,15 +23,16 @@ def home():
 
     return render_template("home.html", user=current_user)
 
-@views.route("/delete-note", methods=["POST"])
+@views.route('/delete-note', methods=['POST'])
 def delete_note():
     note = json.loads(request.data)
-    noteId = note["noteId"]
-    note = Note.query.get("note.Id")
+    noteId = note['noteId']
+    note = Note.query.get(noteId)
     if note:
         if note.user_id == current_user.id:
             db.session.delete(note)
-            db.session.commit
+            db.session.commit()
+
     return jsonify({})
 
 
