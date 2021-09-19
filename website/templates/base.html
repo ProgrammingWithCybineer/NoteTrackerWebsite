@@ -15,13 +15,22 @@
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     crossorigin="anonymous"
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet">
+
+  <link href="{{ url_for ('static', filename='css/style.css')}}" rel="stylesheet"/>
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
     <nav class= "navbar navbar-expand-lg navbar-dark bg-dark">
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-           <span class="navbar-toggler-icon"></span>
-       </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
         <div class="collapse navbar-collapse" id="navbar">
             <div class="navbar-nav">
                 {% if user.is_authenticated %}
