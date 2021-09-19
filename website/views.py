@@ -46,3 +46,9 @@ def delete_user():
             db.session.delete(email=user)
             db.session.commit
     return jsonify({})
+
+
+# @views.route("/noteDetails",  methods=['POST'])
+# def noteDetails():
+#         return render_template("noteDetails.html")
+
