@@ -38,7 +38,7 @@ h1{
 }
 
 
-body{
+#notesbackground{
     background-image: url(calmocean.jpg);
     background-color: rgb(197, 197, 197);
     height: 100vh;
@@ -47,9 +47,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
 }
 .noteList{
     padding: 20px;
@@ -64,6 +61,31 @@ body{
     border-radius: 10px;
     text-align: justify-content;
     
+}
+
+#loginpage{
+    color:azure;
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#loginbackground{
+    background-image:url(door.jpg);
+    height: 100vh;
+    width: fill;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#emailAddress{
+    color:azure;
+}
+
+#passwordTitle{
+    color:azure;
 }
 
 a{
@@ -134,12 +156,6 @@ a{
 }
 
 
-#loginpage{
-    color:rgb(1, 80, 154);
-    font-family: 'Playball', cursive;
-    font-weight: bold;
-    font-size: 48px;
-}
 
 
 
