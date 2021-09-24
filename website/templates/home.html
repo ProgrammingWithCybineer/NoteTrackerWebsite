@@ -4,7 +4,7 @@
 
 <body id="notesbackground">
 <div class="notebg" id="notebg">
-<h1 align="center">Notes</h1>
+<h1 id"notesTitle" align="center">Notes</h1>
 <ul class="noteList" id="notes">
     {% for note in user.notes %}
     <li class="notedetail" id="notedetail">{{ note.data }}
@@ -17,7 +17,7 @@
 <form method= "POST">
     <textarea name="note" id="inputNote" class="form-control"></textarea>
     <div align="center">
-        <button type="submit" class="btn btn-primary" style="margin-top:25px">Add Note</button>
+        <button id="addNote" type="submit" class="btn btn-primary" style="margin-top:25px">Add Note</button>
     </div>
 </div>
 </form>
