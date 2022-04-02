@@ -2,10 +2,11 @@
 This Note tracker app allows users to enter data using CRUD functionality
 
 #### Technologies Used
-• 	Python
-• 	Flask
-• 	SQLAlchemy
-• 	VSCode
+- Python
+- Flask
+- SQLAlchemy
+- VSCode
+
 
 #### Current Features
 •	 User login
