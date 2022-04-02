@@ -1,4 +1,4 @@
-# NoteTrackerWebsite
+# Note Tracker Website
 This Note tracker app allows users to enter data using CRUD functionality
 
 #### Technologies Used
