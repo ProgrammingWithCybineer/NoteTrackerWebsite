@@ -1,2 +1,19 @@
 # NoteTrackerWebsite
-This is a note tracker app built using python and flask. This is the first iteration of this website.
+This Note tracker app allows users to enter data using CRUD functionality
+
+### Technologies Used
+•	Python
+•	Flask
+•	SQLAlchemy
+•	VSCode
+
+###Current Features
+•	User login
+•	Account Creation
+•	Admin can delete user from database
+•	Notes saved across user experience
+
+###Future Features
+•	Publicly host website
+•	User theme selection
+
