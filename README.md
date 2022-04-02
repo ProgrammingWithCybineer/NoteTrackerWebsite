@@ -16,6 +16,9 @@ This Note tracker app allows users to enter data using CRUD functionality
 
 
 #### Future Features
-•	 Publicly host website
-• 	User theme selection
+- Publicly host website
+- User theme selection
+- Light and Dark mode selection
+
+
 
